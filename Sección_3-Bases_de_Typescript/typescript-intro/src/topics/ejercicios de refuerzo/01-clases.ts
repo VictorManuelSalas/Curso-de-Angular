@@ -35,19 +35,17 @@ console.log(user1.estaActivo());
 /**
  *   
 
-Crea un método estaActivo() que retorne true o false
-
-Evita acceder directamente a activo desde fuera de la clase
+ 
 
 ❓ Preguntas de auto-evaluación
 
 Respóndelas mentalmente o escríbelas:
 
-¿Para qué sirve el constructor?
+¿Para qué sirve el constructor? Sirve para inicializar las propiedades de la clase al momento de crear una instancia
 
-¿Qué significa private en una propiedad?
+¿Qué significa private en una propiedad? Es una propiedad en la cual define si la propiedad podra ser accesible fuera de la clase, en este caso no sera posible.
 
-¿Por qué usamos this?
+¿Por qué usamos this? Se usa para definir el valor de las propiedades de la clase
 
-¿Qué ventaja tiene usar clases frente a objetos simples?
+¿Qué ventaja tiene usar clases frente a objetos simples? Las clases permiten reutilizar código, crear múltiples instancias con la misma estructura, encapsular lógica, controlar el acceso a los datos y mantener el código más ordenado y escalable
  */

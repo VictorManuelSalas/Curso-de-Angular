@@ -40,10 +40,11 @@ export class SuperHero extends Person {
   constructor(
     public alterEgo: string,
     public age: number,
-    public realName: string
+    public realName: string,
+    address: string
   ) {
-    super(realName); // Llamada al constructor de la clase padre
+    super(realName, address); // Llamada al constructor de la clase padre
   }
 }
-const ironMan = new SuperHero("Iron Man", 45, "Tony Stark");
+const ironMan = new SuperHero("Iron Man", 45, "Tony Stark", "Malibu, California");
 console.log(ironMan);
