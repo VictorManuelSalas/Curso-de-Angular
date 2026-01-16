@@ -8,6 +8,8 @@ import {
   Post,
   Put,
   Query,
+  UsePipes,
+  ValidationPipe,
 } from '@nestjs/common';
 import { TasksService } from './tasks.service';
 
@@ -30,6 +32,11 @@ export class TasksController {
   }
 
   @Post()
+  @UsePipes(new ValidationPipe({
+    whitelist: true, // elimina campos no definidos en el DTO
+    forbidNonWhitelisted: true, // lanza error si mandan campos extra
+    transform: true, // transforma JSON a instancia de clase
+  }))
   createTask(@Body() task: CreateTaskDto) {
     console.log(task);
     return this.tasksService.createTask(task);
