@@ -1,0 +1,636 @@
+{
+  "csv": [
+    {
+      "name": "Leads",
+      "data": [
+        [
+          ["Field Label", "API Name", "Data Type", "Custom Field"],
+          ["Annual Revenue", "Annual_Revenue", "Currency", "No"],
+          ["City", "City", "Single Line", "No"],
+          ["Company", "Company", "Single Line", "No"],
+          ["Connected To", "Connected_To__s", "MultiModuleLookup", "No"],
+          ["Converted Account", "Converted_Account", "Lookup", "No"],
+          ["Converted Contact", "Converted_Contact", "Lookup", "No"],
+          ["Converted Deal", "Converted_Deal", "Lookup", "No"],
+          ["Country", "Country", "Single Line", "No"],
+          ["Created By", "Created_By", "Single Line", "No"],
+          ["Description", "Description", "Multi Line (Large)", "No"],
+          [
+            "Discovery Call Date/Time",
+            "Discovery_Call_Date_Time",
+            "DateTime",
+            "Yes"
+          ],
+          [
+            "Discovery Call Outcome",
+            "Discovery_Call_Outcome",
+            "Pick List",
+            "Yes"
+          ],
+          [
+            "Discovery Call Scheduled?",
+            "Discovery_Call_Scheduled",
+            "Boolean",
+            "Yes"
+          ],
+          ["Email", "Email", "Email", "No"],
+          ["Email Opt Out", "Email_Opt_Out", "Boolean", "No"],
+          [
+            "Emerald Intel Company ID",
+            "Emerald_Intel_Company_ID",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Contact ID",
+            "Emerald_Intel_Contact_ID",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Data Confidence",
+            "Emerald_Intel_Data_Confidence",
+            "Number",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Data Status",
+            "Emerald_Intel_Data_Status",
+            "Pick List",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Last Synced",
+            "Emerald_Intel_Last_Synced",
+            "DateTime",
+            "Yes"
+          ],
+          ["Fax", "Fax", "Fax", "No"],
+          ["First Name", "First_Name", "Single Line", "No"],
+          ["Follow-up Date", "Follow_up_Date", "Date", "Yes"],
+          [
+            "HubSpot Submission ID",
+            "HubSpot_Submission_ID",
+            "Single Line",
+            "Yes"
+          ],
+          ["Industry", "Industry", "Pick List", "No"],
+          ["Is Partner Referred?", "Is_Partner_Referred", "Boolean", "Yes"],
+          ["Last Name", "Last_Name", "Single Line", "No"],
+          ["Lead Image", "Record_Image", "Record Image", "No"],
+          ["Lead Owner", "Owner", "Lookup", "No"],
+          ["Lead Source", "Lead_Source", "Pick List", "No"],
+          ["Lead Status", "Lead_Status", "Pick List", "No"],
+          ["Mobile", "Mobile", "Phone", "No"],
+          ["Modified By", "Modified_By", "Single Line", "No"],
+          [
+            "Monday.com Board ID (text)",
+            "Monday_com_Board_ID_text",
+            "Single Line",
+            "Yes"
+          ],
+          ["Monday.com Item ID", "Monday_com_Item_ID", "Single Line", "Yes"],
+          ["No. of Employees", "No_of_Employees", "Number", "No"],
+          ["Partner Intro Date", "Partner_Intro_Date", "Date", "Yes"],
+          ["Partner Loop Status", "Partner_Loop_Status", "Pick List", "Yes"],
+          ["Phone", "Phone", "Phone", "No"],
+          ["Primary Product", "Primary_Product", "Pick List", "Yes"],
+          ["Product Interest", "Product_Interest", "Multiselect", "Yes"],
+          ["Products", "Products", "Lookup", "Yes"],
+          ["Rating", "Rating", "Pick List", "No"],
+          [
+            "Referring Partner Account",
+            "Referring_Partner_Account",
+            "Lookup",
+            "Yes"
+          ],
+          [
+            "Referring Partner Contact",
+            "Referring_Partner_Contact",
+            "Lookup",
+            "Yes"
+          ],
+          ["Routed Date", "Routed_Date", "Date", "Yes"],
+          ["Routed To", "Routed_To", "UserLookup", "Yes"],
+          ["Routing Queue", "Routing_Queue", "Pick List", "Yes"],
+          ["Salutation", "Salutation", "Pick List", "No"],
+          ["Secondary Email", "Secondary_Email", "Email", "No"],
+          ["Skype ID", "Skype_ID", "Single Line", "No"],
+          ["Source System", "Source_System", "Pick List", "Yes"],
+          ["State", "State", "Single Line", "No"],
+          ["Street", "Street", "Single Line", "No"],
+          ["Tag", "Tag", "Single Line", "No"],
+          ["Title", "Designation", "Single Line", "No"],
+          ["Twitter", "Twitter", "Single Line", "No"],
+          ["Website", "Website", "URL", "No"],
+          ["Zip Code", "Zip_Code", "Single Line", "No"]
+        ]
+      ]
+    },
+    {
+      "name": "Contacts",
+      "data": [
+        [
+          ["Field Label", "API Name", "Data Type", "Custom Field"],
+          ["Account Name", "Account_Name", "Lookup", "No"],
+          ["Assistant", "Assistant", "Single Line", "No"],
+          ["Asst Phone", "Asst_Phone", "Phone", "No"],
+          ["Connected To", "Connected_To__s", "MultiModuleLookup", "No"],
+          ["Contact Image", "Record_Image", "Record Image", "No"],
+          ["Contact Owner", "Owner", "Lookup", "No"],
+          ["Contact Type", "Contact_Type", "Pick List", "Yes"],
+          ["Created By", "Created_By", "Single Line", "No"],
+          ["Date of Birth", "Date_of_Birth", "Date", "No"],
+          ["Department", "Department", "Single Line", "No"],
+          ["Description", "Description", "Multi Line (Large)", "No"],
+          ["Email", "Email", "Email (Unique)", "No"],
+          ["Email Opt Out", "Email_Opt_Out", "Boolean", "No"],
+          [
+            "Emerald Intel Contact ID",
+            "Emerald_Intel_Contact_ID",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Direct Phone",
+            "Emerald_Intel_Direct_Phone",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Job Title",
+            "Emerald_Intel_Job_Title",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Last Verified",
+            "Emerald_Intel_Last_Verified",
+            "DateTime",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Verified Email",
+            "Emerald_Intel_Verified_Email",
+            "Email",
+            "Yes"
+          ],
+          ["Fax", "Fax", "Fax", "No"],
+          ["First Name", "First_Name", "Single Line", "No"],
+          ["Home Phone", "Home_Phone", "Phone", "No"],
+          ["Last Name", "Last_Name", "Single Line", "No"],
+          ["Lead Source", "Lead_Source", "Pick List", "No"],
+          ["Mailing City", "Mailing_City", "Single Line", "No"],
+          ["Mailing Country", "Mailing_Country", "Single Line", "No"],
+          ["Mailing State", "Mailing_State", "Single Line", "No"],
+          ["Mailing Street", "Mailing_Street", "Single Line", "No"],
+          ["Mailing Zip", "Mailing_Zip", "Single Line", "No"],
+          ["Mobile", "Mobile", "Phone", "No"],
+          ["Modified By", "Modified_By", "Single Line", "No"],
+          ["Other City", "Other_City", "Single Line", "No"],
+          ["Other Country", "Other_Country", "Single Line", "No"],
+          ["Other Phone", "Other_Phone", "Phone", "No"],
+          ["Other State", "Other_State", "Single Line", "No"],
+          ["Other Street", "Other_Street", "Single Line", "No"],
+          ["Other Zip", "Other_Zip", "Single Line", "No"],
+          ["Partner", "Partner", "Boolean", "Yes"],
+          ["Partner Account", "Partner_Account", "Lookup", "Yes"],
+          [
+            "Partner Relationship Owner",
+            "Partner_Relationship_Owner",
+            "UserLookup",
+            "Yes"
+          ],
+          ["Phone", "Phone", "Phone", "No"],
+          ["Reporting To", "Reporting_To", "Lookup", "No"],
+          ["Salutation", "Salutation", "Pick List", "No"]
+        ]
+      ]
+    },
+    {
+      "name": "Accounts",
+      "data": [
+        [
+          ["Field Label", "API Name", "Data Type", "Custom Field"],
+          ["Account Image", "Record_Image", "Record Image", "No"],
+          ["Account Name", "Account_Name", "Single Line", "No"],
+          ["Account Number", "Account_Number", "Long Integer", "No"],
+          ["Account Owner", "Owner", "Lookup", "No"],
+          ["Account Site", "Account_Site", "Single Line", "No"],
+          ["Account Status", "Account_Status", "Pick List", "Yes"],
+          ["Account Type", "Account_Type", "Pick List", "No"],
+          ["Annual Revenue", "Annual_Revenue", "Currency", "No"],
+          ["Billing City", "Billing_City", "Single Line", "No"],
+          ["Billing Code", "Billing_Code", "Single Line", "No"],
+          ["Billing Country", "Billing_Country", "Single Line", "No"],
+          ["Billing State", "Billing_State", "Single Line", "No"],
+          ["Billing Street", "Billing_Street", "Single Line", "No"],
+          ["Connected To", "Connected_To__s", "MultiModuleLookup", "No"],
+          ["Created By", "Created_By", "Single Line", "No"],
+          ["Description", "Description", "Multi Line (Large)", "No"],
+          ["EIN / Tax ID", "EIN_Tax_ID", "Single Line", "Yes"],
+          [
+            "Emerald Intel Company ID",
+            "Emerald_Intel_Company_ID",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Last Verified Date",
+            "Emerald_Intel_Last_Verified_Date",
+            "DateTime",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Expiration Date",
+            "Emerald_Intel_License_Expiration_Date",
+            "Date",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Holder Legal Name",
+            "Emerald_Intel_License_Holder_Legal_Name",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Number",
+            "Emerald_Intel_License_Number",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Status",
+            "Emerald_Intel_License_Status",
+            "Pick List",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Type",
+            "Emerald_Intel_License_Type",
+            "Single Line",
+            "Yes"
+          ],
+          ["Employees", "Employees", "Number", "No"],
+          ["Fax", "Fax", "Fax", "No"],
+          ["Industry", "Industry", "Pick List", "No"],
+          ["Lead Source", "Lead_Source", "Pick List", "Yes"],
+          ["Modified By", "Modified_By", "Single Line", "No"],
+          ["Ownership", "Ownership", "Pick List", "No"],
+          ["Parent Account", "Parent_Account", "Lookup", "No"],
+          ["Partner Notes", "Partner_Notes", "Multi Line (Small)", "Yes"],
+          ["Partner Program", "Partner_Program", "Pick List", "Yes"],
+          ["Partner Status", "Partner_Status", "Pick List", "Yes"],
+          ["Phone", "Phone", "Phone", "No"],
+          ["Primary Product", "Primary_Product", "Pick List", "Yes"],
+          ["Products Active", "Products_Active", "Multiselect", "Yes"],
+          [
+            "Quarterly Reconciliation Needed?",
+            "Quarterly_Reconciliation_Needed",
+            "Boolean",
+            "Yes"
+          ],
+          ["Rating", "Rating", "Pick List", "No"],
+          [
+            "Referral Agreement Type",
+            "Referral_Agreement_Type",
+            "Pick List",
+            "Yes"
+          ],
+          ["Referral Fee %", "Referral_Fee", "Number", "Yes"],
+          [
+            "Referral Fee Flat Amount",
+            "Referral_Fee_Flat_Amount",
+            "Currency",
+            "Yes"
+          ],
+          ["Referral Fee Method", "Referral_Fee_Method", "Pick List", "Yes"]
+        ]
+      ]
+    },
+    {
+      "name": "Deals",
+      "data": [
+        [
+          ["Field Label", "API Name", "Data Type", "Custom Field"],
+          ["Account Name", "Account_Name", "Lookup", "No"],
+          ["Amount", "Amount", "Currency", "No"],
+          [
+            "Application Form Received Date",
+            "Application_Form_Received_Date",
+            "Date",
+            "Yes"
+          ],
+          [
+            "Application Form Sent Date",
+            "Application_Form_Sent_Date",
+            "Date",
+            "Yes"
+          ],
+          ["Campaign Source", "Campaign_Source", "Lookup", "No"],
+          ["Closing Date", "Closing_Date", "Date", "No"],
+          ["Connected To", "Connected_To__s", "MultiModuleLookup", "No"],
+          ["Contact Name", "Contact_Name", "Lookup", "No"],
+          ["Created By", "Created_By", "Single Line", "No"],
+          ["Deal Image", "Record_Image", "Record Image", "No"],
+          ["Deal Name", "Deal_Name", "Single Line", "No"],
+          ["Deal Owner", "Owner", "Lookup", "No"],
+          ["Deposit Confirmed Date", "Deposit_Confirmed_Date", "Date", "Yes"],
+          ["Description", "Description", "Multi Line (Large)", "No"],
+          ["Discovery Call Date", "Discovery_Call_Date", "DateTime", "Yes"],
+          [
+            "Employee Incentive Required?",
+            "Employee_Incentive_Required",
+            "Boolean",
+            "Yes"
+          ],
+          ["Expected Close Date", "Expected_Close_Date", "Date", "Yes"],
+          [
+            "Expected Incoming Revenue",
+            "Expected_Incoming_Revenue",
+            "Currency",
+            "Yes"
+          ],
+          ["Expected Revenue", "Expected_Revenue", "Currency", "No"],
+          [
+            "Incentive Payout Requested Date",
+            "Incentive_Payout_Requested_Date",
+            "Date",
+            "Yes"
+          ],
+          ["Lead Source", "Lead_Source", "Pick List", "No"],
+          ["Lead Source Detail", "Lead_Source_Detail", "Single Line", "Yes"],
+          ["Lost Reason", "Lost_Reason", "Pick List", "Yes"],
+          ["Modified By", "Modified_By", "Single Line", "No"],
+          ["Next Step", "Next_Step", "Single Line", "No"],
+          [
+            "Notes / Conditions",
+            "Notes_Conditions",
+            "Multi Line (Small)",
+            "Yes"
+          ],
+          ["Partner Contact", "Contact_Partner", "Lookup", "Yes"],
+          ["Partner Notified Date", "Partner_Notified_Date", "Date", "Yes"],
+          ["Payment Confirmed Date", "Payment_Confirmed_Date", "Date", "Yes"],
+          ["Payment Requested Date", "Payment_Requested_Date", "Date", "Yes"],
+          ["Pipeline", "Pipeline", "Pick List", "No"],
+          ["Pipeline Type", "Pipeline_Type", "Pick List", "Yes"],
+          ["Primary Product", "Primary_Product", "Pick List", "Yes"],
+          ["Probability (%)", "Probability", "Number", "No"],
+          ["Product", "Product", "Lookup", "Yes"],
+          ["Reason For Loss", "Reason_For_Loss__s", "Pick List", "No"],
+          [
+            "Reconciliation Quarter",
+            "Reconciliation_Quarter",
+            "Pick List",
+            "Yes"
+          ],
+          [
+            "Reconciliation Report Link",
+            "Reconciliation_Report_Link",
+            "URL",
+            "Yes"
+          ],
+          [
+            "Referral Agreement Type",
+            "Referral_Agreement_Type",
+            "Pick List",
+            "Yes"
+          ],
+          ["Referral Fee %", "Referral_Fee", "Number", "Yes"],
+          ["Referral Fee Amount", "Referral_Fee_Amount", "Currency", "Yes"],
+          ["Referring Partner", "Referring_Partner", "Lookup", "Yes"]
+        ]
+      ]
+    },
+    {
+      "name": "Partners",
+      "data": [
+        [
+          ["Field Label", "API Name", "Data Type", "Custom Field"],
+          ["Account Type", "Account_Type", "Pick List", "Yes"],
+          ["Billing City", "Billing_City", "Single Line", "Yes"],
+          ["Billing Code", "Billing_Code", "Single Line", "Yes"],
+          ["Billing Country", "Billing_Country", "Single Line", "Yes"],
+          ["Billing State", "Billing_State", "Single Line", "Yes"],
+          ["Billing Street", "Billing_Street", "Single Line", "Yes"],
+          ["Connected To", "Connected_To__s", "MultiModuleLookup", "No"],
+          ["Created By", "Created_By", "Single Line", "No"],
+          ["EIN / Tax ID", "EIN_Tax_ID", "Single Line", "Yes"],
+          ["Email", "Email", "Email", "No"],
+          ["Email Opt Out", "Email_Opt_Out", "Boolean", "No"],
+          [
+            "Emerald Intel Company ID",
+            "Emerald_Intel_Company_ID",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel Last Verified Date",
+            "Emerald_Intel_Last_Verified_Date",
+            "DateTime",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Expiration Date",
+            "Emerald_Intel_License_Expiration_Date",
+            "Date",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Holder Legal Name",
+            "Emerald_Intel_License_Holder_Legal_Name",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Number",
+            "Emerald_Intel_License_Number",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Status",
+            "Emerald_Intel_License_Status",
+            "Pick List",
+            "Yes"
+          ],
+          [
+            "Emerald Intel License Type",
+            "Emerald_Intel_License_Type",
+            "Single Line",
+            "Yes"
+          ],
+          ["Modified By", "Modified_By", "Single Line", "No"],
+          ["Partner Image", "Record_Image", "Partner Image", "No"],
+          ["Partner Name", "Name", "Single Line", "No"],
+          ["Partner Notes", "Partner_Notes", "Multi Line (Small)", "Yes"],
+          ["Partner Owner", "Owner", "Lookup", "No"],
+          ["Partner Program", "Partner_Program", "Pick List", "Yes"],
+          ["Partner Status", "Partner_Status", "Pick List", "Yes"],
+          ["Primary Product", "Primary_Product", "Pick List", "Yes"],
+          ["Products Active", "Products_Active", "Multiselect", "Yes"],
+          [
+            "Quarterly Reconciliation Needed?",
+            "Quarterly_Reconciliation_Needed",
+            "Boolean",
+            "Yes"
+          ],
+          [
+            "Referral Agreement Type",
+            "Referral_Agreement_Type",
+            "Pick List",
+            "Yes"
+          ],
+          ["Referral Fee %", "Referral_Fee", "Number", "Yes"],
+          [
+            "Referral Fee Flat Amount",
+            "Referral_Fee_Flat_Amount",
+            "Currency",
+            "Yes"
+          ],
+          ["Referral Fee Method", "Referral_Fee_Method", "Pick List", "Yes"],
+          ["Secondary Email", "Secondary_Email", "Email", "No"],
+          [
+            "Service/Project Location City",
+            "Service_Project_Location_City",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Service/Project Location Code",
+            "Service_Project_Location_Code",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Service/Project Location Country",
+            "Service_Project_Location_Country",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Service/Project Location State",
+            "Service_Project_Location_State",
+            "Single Line",
+            "Yes"
+          ],
+          [
+            "Service/Project Location Street",
+            "Service_Project_Location_Street",
+            "Single Line",
+            "Yes"
+          ],
+          ["Tag", "Tag", "Single Line", "No"]
+        ]
+      ]
+    },
+    {
+      "name": "Partner Deals",
+      "data": [
+        [
+          ["Field Label", "API Name", "Data Type", "Custom Field"],
+          ["Amount", "Amount", "Currency", "Yes"],
+          [
+            "Application Form Received Date",
+            "Application_Form_Received_Date",
+            "Date",
+            "Yes"
+          ],
+          [
+            "Application Form Sent Date",
+            "Application_Form_Sent_Date",
+            "Date",
+            "Yes"
+          ],
+          ["Connected To", "Connected_To__s", "MultiModuleLookup", "No"],
+          ["Created By", "Created_By", "Single Line", "No"],
+          ["Deposit Confirmed Date", "Deposit_Confirmed_Date", "Date", "Yes"],
+          ["Discovery Call Date", "Discovery_Call_Date", "DateTime", "Yes"],
+          ["Email", "Email", "Email", "No"],
+          ["Email Opt Out", "Email_Opt_Out", "Boolean", "No"],
+          [
+            "Employee Incentive Required?",
+            "Employee_Incentive_Required",
+            "Boolean",
+            "Yes"
+          ],
+          ["Expected Close Date", "Expected_Close_Date", "Date", "Yes"],
+          [
+            "Expected Incoming Revenue",
+            "Expected_Incoming_Revenue",
+            "Currency",
+            "Yes"
+          ],
+          [
+            "Incentive Payout Requested Date",
+            "Incentive_Payout_Requested_Date",
+            "Date",
+            "Yes"
+          ],
+          ["Is Partner Referred?", "Is_Partner_Referred", "Boolean", "Yes"],
+          ["Lead Source Detail", "Lead_Source_Detail", "Single Line", "Yes"],
+          ["Lost Reason", "Lost_Reason", "Pick List", "Yes"],
+          ["Modified By", "Modified_By", "Single Line", "No"],
+          [
+            "Notes / Conditions",
+            "Notes_Conditions",
+            "Multi Line (Small)",
+            "Yes"
+          ],
+          ["Partner Deal Image", "Record_Image", "Partner Deal Image", "No"],
+          ["Partner Deal Name", "Name", "Single Line", "No"],
+          ["Partner Deal Owner", "Owner", "Lookup", "No"],
+          ["Partner Intro Date", "Partner_Intro_Date", "Date", "Yes"],
+          ["Partner Loop Status", "Partner_Loop_Status", "Pick List", "Yes"],
+          ["Partner Notified Date", "Partner_Notified_Date", "Date", "Yes"],
+          ["Payment Confirmed Date", "Payment_Confirmed_Date", "Date", "Yes"],
+          ["Payment Requested Date", "Payment_Requested_Date", "Date", "Yes"],
+          ["Pipeline", "Pipeline", "Pick List", "Yes"],
+          ["Pipeline Type", "Pipeline_Type", "Pick List", "Yes"],
+          ["Primary Product", "Primary_Product1", "Lookup", "Yes"],
+          [
+            "Reconciliation Quarter",
+            "Reconciliation_Quarter",
+            "Pick List",
+            "Yes"
+          ],
+          [
+            "Reconciliation Report Link",
+            "Reconciliation_Report_Link",
+            "URL",
+            "Yes"
+          ],
+          ["Referal Type", "Type", "Pick List", "Yes"],
+          [
+            "Referral Agreement Type",
+            "Referral_Agreement_Type",
+            "Pick List",
+            "Yes"
+          ],
+          ["Referral Fee %", "Referral_Fee", "Number", "Yes"],
+          ["Referral Fee Amount", "Referral_Fee_Amount", "Currency", "Yes"],
+          ["Referring Partner", "Referring_Partner", "Lookup", "Yes"],
+          ["Referring Partner Account", "Account", "Lookup", "Yes"],
+          [
+            "Referring Partner Contact",
+            "Referring_Partner_Contact",
+            "Lookup",
+            "Yes"
+          ],
+          ["Screening Status", "Screening_Status", "Pick List", "Yes"],
+          ["Secondary Email", "Secondary_Email", "Email", "No"],
+          ["Source System", "Source_System", "Pick List", "Yes"],
+          ["Stage", "Stage", "Pick List", "Yes"],
+          ["Tag", "Tag", "Single Line", "No"],
+          [
+            "Verification EIN Confirmed",
+            "Verification_EIN_Confirmed",
+            "Boolean",
+            "Yes"
+          ]
+        ]
+      ]
+    }
+  ]
+}
