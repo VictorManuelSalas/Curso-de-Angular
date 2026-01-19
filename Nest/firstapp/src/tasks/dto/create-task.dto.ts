@@ -1,7 +1,12 @@
-import { IsString } from 'class-validator';
+//Para las validaciones solo funciona e4n clases nunca en interfaces
+
+import { IsString, MinLength} from 'class-validator';
 export class CreateTaskDto {
+  id?: number;
   @IsString()
+  @MinLength(3)
   title: string;
   @IsString()
+  @MinLength(10)
   description: string;
 }

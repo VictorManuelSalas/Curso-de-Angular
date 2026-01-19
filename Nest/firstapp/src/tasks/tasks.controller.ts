@@ -9,7 +9,7 @@ import {
   Put,
   Query,
   UsePipes,
-  ValidationPipe,
+  ValidationPipe
 } from '@nestjs/common';
 import { TasksService } from './tasks.service';
 
